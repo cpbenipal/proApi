@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9PS3lKBkHmreikJHhTeja9CnEd0fCJvQzSXThif4y0c=",
+  "Source": "Salsify.Api",
+  "BasePath": "_content/Salsify.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

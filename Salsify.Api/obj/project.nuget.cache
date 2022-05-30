@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2JuPd8oqOKqZ3jNbjhR0p38ZC9MxCO68J6eOEXWT8t4pH0LtDFedmmKfVD+RQC/Fe4+FCNXVnid2DfSOg10D/A==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\SamHaider\\SalsifyApi\\Salsify.Api\\Salsify.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Benipal\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Benipal\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Benipal\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Benipal\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Benipal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Benipal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
