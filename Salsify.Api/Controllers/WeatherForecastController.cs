@@ -16,17 +16,18 @@ namespace Salsify.Api.Controllers
         [HttpGet(Name = "Auth")]
         public async Task<IActionResult> GetAsync()
         {
+
+                var requri = "https://app.salsify.com/api/v1/orgs/s-26b1104b-8ce0-44f4-b121-9acb3f679099/products?access_token=DZIf0dDZ-oWwuXwedyhbskz7K0ec6k28udQvjs3158k";
+
             using (var httpClient = new HttpClient())
             {
-                using (var request = new HttpRequestMessage(new HttpMethod("GET"), "https://app.salsify.com/api/v1/orgs/s-26b1104b-8ce0-44f4-b121-9acb3f679099/products/100004"))
+                using (var response = await httpClient.GetAsync(requri))
                 {
-                    request.Headers.TryAddWithoutValidation("Authorization", "Bearer " + AppSettings.ApiKey + "");
-
-                    var response = await httpClient.SendAsync(request);
-
-                    return Ok(response);
+                    var apiResponse = await response.Content.ReadAsStringAsync();
+                    return Ok(apiResponse);
                 }
-            }             
+            }
+                    
         }
     }
 }
